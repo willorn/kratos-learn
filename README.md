@@ -49,8 +49,3 @@ docker build -t <your-docker-image-name> .
 docker run --rm -p 8000:8000 -p 9000:9000 -v </path/to/your/configs>:/data/conf <your-docker-image-name>
 ```
 
-
-
-LICENSE：可以删除，没问题的。代码许可证
-
-third_party：一般是给protobuf使用的

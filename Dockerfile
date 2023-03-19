@@ -17,7 +17,6 @@ COPY --from=builder /src/bin /app
 
 WORKDIR /app
 
-# 暴露端口，以及配置位置
 EXPOSE 8000
 EXPOSE 9000
 VOLUME /data/conf
